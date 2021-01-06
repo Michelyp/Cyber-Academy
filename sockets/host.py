@@ -1,5 +1,6 @@
 import socket
 import sys
+
 try:
     print("gethostbyname")
     print(socket.gethostbyname_ex('www.google.com'))
